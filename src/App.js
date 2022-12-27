@@ -7,16 +7,20 @@ function App() {
       <header className="App-header">
         <h1>Weather App</h1>
         <Weather />
-        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <footer>
+        <p>
+          <a
+            className="Git-link"
+            href="https://github.com/OleksandraKoshyk/react-weather"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open-source code
+          </a>
+          , by Oleksandra Koshyk
+        </p>
+      </footer>
     </div>
   );
 }
